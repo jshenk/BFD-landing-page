@@ -99,12 +99,9 @@
 			
 			<div class="form-content">
 				
+				
 				<fieldset class="form-group">
-					<input type="text" name="email" placeholder="Email">
-			
-				</fieldset>
-				<fieldset class="form-group">
-					<input type="text" name="first" placeholder="First Name">
+					<input type="text" name="first" placeholder="First Name*" required>
 			
 				</fieldset>
 				<fieldset class="form-group">
@@ -116,9 +113,13 @@
 			
 				</fieldset>
 				<fieldset class="form-group">
+					<input type="text" name="email" placeholder="Email*" required>
+			
+				</fieldset>
+				<fieldset class="form-group">
 					 
-					<select placeholder="Furniture" name="furniture" >
-						  <option selected="selected">Furniture of Interest</option>
+					<select placeholder="Furniture" name="furniture" required >
+						  <option selected="selected">Furniture of Interest*</option>
 						  <option value="volvo">Bedroom</option>
 						  <option value="saab">Dining Room</option>
 						  <option value="fiat">Living Room</option>
