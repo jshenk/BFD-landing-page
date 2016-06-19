@@ -1,0 +1,207 @@
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+	font-family: 'Montserrat', sans-serif;
+	color: #6e6e6e;
+}
+
+
+
+p,
+ul {
+	font-size: 16px;
+	
+}
+
+.furniture h3 {
+	position: absolute;
+    bottom: 5px;
+    left: 15px;
+    width: 50%;
+    color: #fff;
+    padding: 20px 0px 20px 10px;
+    background-color: rgba(58, 60, 68, .8);
+}
+
+.furniture a,
+.furniture a:hover {
+	color: #fff;
+	
+}
+
+.furniture a {
+	text-decoration: none;
+}
+
+
+/*images*/
+
+.furniture img {
+	position: relative;
+	padding-bottom: 15px;
+
+}
+
+.blue-col {
+	padding: 3vh 15px;
+	color: #A53934;
+
+
+}
+.blue-col h1 {	
+	font-size: 4em;
+}
+
+.blue-col h2 {
+	font-style: italic;
+}
+
+
+
+
+
+.form {
+	padding: 20px 0;
+	color: #fff;
+}
+
+.form h1 {
+	background-color: #fff;
+	color: gray;
+	padding: 25px;
+	margin: 0;
+}
+
+.form p {
+	padding: 10px 5px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+}
+
+.form-description {
+	background-color: rgba(102, 167, 197, .5);
+	margin-bottom: 0;
+	padding: 30px 25px;
+
+}
+
+.form-content {
+	background-color: rgba(102, 167, 197, 1);
+	padding: 25px;
+	font-size: 1.4em;
+}
+
+.form-content input,
+.form-content select {
+	color: black;
+	width: 100%;
+	padding: 10px;
+}
+
+
+
+.logo {
+	background-color: #3A3C44;
+}
+
+.logo img {
+	display: block;
+	margin: auto;
+}
+
+label {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/*Header*/
+
+#banner {
+	background-image: url('photos/bed-large-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+/*footer*/
+.footer {
+	background-color: #3A3C44;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+
+
+}
+.footer li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+	font-size: 1em;
+	margin: auto;
+}
+
+.footer a,
+.footer a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button a {
+	color: #fff;
+	text-decoration: none;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.button a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #3A3C44;
+	border-radius: 3px;
+}
+button { 
+    background-color: #A53934;
+    border: 2px solid #A53934;
+    padding: 10px;
+    width: 60%;
+    border-radius: 2px;
+    margin: auto;
+    display: block;
+ }
+
+ button:hover {
+	background-color: #A53934;
+ }
+
+ /*media queries*/
+
+@media (min-width: 992px) {
+	.form {
+		margin: -335px 0;
+
+	}
+
+	.form img {
+		width: 50%;
+	}
+
+	#banner {
+		min-height: 365px;
+
+	}
+
+
+}
