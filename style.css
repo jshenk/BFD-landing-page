@@ -189,22 +189,45 @@ button {
 	color: #fff;
 }
 
+/*buttons*/
 .button a {
-	color: #fff;
+	
 	text-decoration: none;
-	border-width: 1px;
-    border-style: solid;
     border-radius: 3px;
     font-weight: 700;
     padding: 15px;
 }
 
-.button a:hover {
+.btn-footer a:hover {
 	text-decoration: none;
 	background-color: #fff;
 	color: #3A3C44;
-	border-radius: 3px;
 }
+
+.btn-footer a {
+	 border: 1px solid;
+
+}
+
+
+
+.btn-cta {
+	margin-top: 30px;
+}
+
+.btn-cta a {
+	border: 1px solid #A53934;
+	color: #A53934;
+	font-size: 20px;
+    padding: 20px;
+}
+
+.btn-cta a:hover {
+	background-color: #A53934;
+	color: #fff;
+}
+
+
 
 
  /*media queries*/
